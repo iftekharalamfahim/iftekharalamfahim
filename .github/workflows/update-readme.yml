@@ -1,0 +1,21 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at 00:00 UTC (midnight)
+  workflow_dispatch:  # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to commit changes to README
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4  # Latest version for checking out the repo
+
+      - name: Update README with recent activity
+        uses: Readme-Workflows/recent-activity@v2.4.1  # Actively maintained action
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Securely uses GitHub token
