@@ -1,0 +1,13 @@
+settings:
+  commit_msg: '🎉 Updated recent activity' 
+  max_lines: 5  # Show up to 5 recent activities
+  disabled_events: []  # Include all events (commits, PRs, issues, etc.)
+  date_format: '📅 MMM DD, YYYY HH:mm:ss'  # Styled timestamp with emoji
+  template:
+    push: '⬆️ Pushed **{count} commit(s)** to [{repo}]({url})'
+    pull_request: '📥 {action} PR #{number} in [{repo}]({url}): _{title}_'
+    issue: '📌 {action} issue #{number} in [{repo}]({url}): _{title}_'
+    release: '🚀 Released [{tag}]({url}) in [{repo}]({repo_url})'
+    star: '⭐ Starred [{repo}]({url})'
+    fork: '🍴 Forked [{repo}]({url}) to [{fork_repo}]({fork_url})'
+    comment: '💬 Commented on {type} #{number} in [{repo}]({url})'
