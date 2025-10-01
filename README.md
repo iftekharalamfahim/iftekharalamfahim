@@ -44,19 +44,9 @@
 
 *Latest contributions and updates from my GitHub journey* 🚀
 
-<div align="left">
-
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/CppCodeForge](https://github.com/iftekharalamfahim/CppCodeForge)<br>
-2. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/CppCodeForge](https://github.com/iftekharalamfahim/CppCodeForge)<br>
-3. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/Ghilu](https://github.com/iftekharalamfahim/Ghilu)<br>
-4. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/Ghilu](https://github.com/iftekharalamfahim/Ghilu)<br>
-5. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/CppCodeForge](https://github.com/iftekharalamfahim/CppCodeForge)<br>
 <!--RECENT_ACTIVITY:end-->
-
-</div>
-
-*Last Updated: <!--RECENT_ACTIVITY:last_update-->*
+<!--RECENT_ACTIVITY:last_update-->
 
 ## 📊 GitHub Stats
 
