@@ -1,8 +1,10 @@
 settings:
-  commit_msg: '🎉 Updated recent activity' 
-  max_lines: 5  # Show up to 5 recent activities
+  commit_msg: '🎉 Updated recent activity'  # Custom commit message
+  max_lines: 5  # Maximum number of activity lines to show
   disabled_events: []  # Include all events (commits, PRs, issues, etc.)
-  date_format: 'MMM DD, YYYY HH:mm:ss'  # Readable date format for last update
+  date:
+    text: 'Last Updated: {DATE}'  # Text for the timestamp (uses {DATE} placeholder)
+    format: 'mmm d, yyyy h:MM:ss'  # Format matching your request (MMM DD -> mmm d, etc.; supports 12-hour with 'h')
   template:
     push: '⬆️ Pushed **{count} commit(s)** to [{repo}]({url})'
     pull_request: '📥 {action} PR #{number} in [{repo}]({url}): _{title}_'
