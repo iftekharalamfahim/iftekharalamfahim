@@ -42,11 +42,13 @@
 
 ## 📂 Recent Activity
 
-*Latest contributions and updates from my GitHub journey* 🚀
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-*Last Updated: <!--RECENT_ACTIVITY:last_update--><!--RECENT_ACTIVITY:last_update_end-->*
+
+<div align="center">
+  <sub>Last updated: <!--LAST_UPDATED_START-->Never<!--LAST_UPDATED_END--></sub>
+</div>
 
 ## 📊 GitHub Stats
 
