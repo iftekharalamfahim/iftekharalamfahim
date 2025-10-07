@@ -1,0 +1,47 @@
+# .github/workflows/update-readme.yml
+name: Update README with Recent Activity
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Update README with recent activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: '📝 Updated recent activity'
+          MAX_LINES: 5
+          COMMIT_NAME: 'github-actions[bot]'
+          COMMIT_EMAIL: '41898282+github-actions[bot]@users.noreply.github.com'
+          
+      - name: Update last updated timestamp
+        run: |
+          # Get current UTC time
+          TIMESTAMP=$(TZ=UTC date '+%B %d, %Y at %H:%M UTC')
+          
+          # Update the timestamp in README
+          sed -i "s/<!--LAST_UPDATED_START-->.*<!--LAST_UPDATED_END-->/<!--LAST_UPDATED_START-->$TIMESTAMP<!--LAST_UPDATED_END-->/g" README.md
+          
+          # Commit if there are changes
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          if git diff --quiet; then
+            echo "No timestamp changes to commit"
+          else
+            git add README.md
+            git commit -m "🕒 Updated timestamp"
+            git push
+          fi
