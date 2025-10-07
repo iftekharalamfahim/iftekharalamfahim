@@ -1,21 +1,48 @@
+# .github/workflows/update-readme.yml
 name: Update README
-
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at 00:00 UTC (midnight)
-  workflow_dispatch:  # Allows manual trigger from GitHub Actions tab
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  workflow_dispatch:  # Allows manual trigger
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Required to commit changes to README
-
+      contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Latest version for checking out the repo
-
+        uses: actions/checkout@v4
+        with:
+          # Use a Personal Access Token (PAT) or default GITHUB_TOKEN
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Fetch all history for proper git operations
+          
+      - name: Configure Git as Bot
+        run: |
+          # Configure git to use GitHub Actions bot identity
+          # This ensures commits DON'T count towards your contribution graph
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
       - name: Update README with recent activity
-        uses: Readme-Workflows/recent-activity@v2.4.1  # Actively maintained action
+        uses: Readme-Workflows/recent-activity@v2.4.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Securely uses GitHub token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # Configure the action to use bot identity
+          COMMIT_NAME: 'github-actions[bot]'
+          COMMIT_EMAIL: '41898282+github-actions[bot]@users.noreply.github.com'
+          COMMIT_MSG: '📝 Updated recent activity'
+          
+      - name: Verify bot commit (fallback safety)
+        run: |
+          # Double-check the last commit is attributed to bot
+          LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
+          echo "Last commit author: $LAST_COMMIT_AUTHOR"
+          
+          if [ "$LAST_COMMIT_AUTHOR" != "github-actions[bot]" ]; then
+            echo "⚠️ Warning: Commit not attributed to bot. Re-committing..."
+            git commit --amend --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" --no-edit
+            git push --force-with-lease
+          fi
