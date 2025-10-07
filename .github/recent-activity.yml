@@ -1,5 +1,0 @@
-settings:
-  commit_msg: '📝 Updated recent activity'  # Custom commit message
-  max_lines: 5  # Maximum number of activity lines to show
-  disabled_events: []  # Include all events (commits, PRs, issues, etc.)
-  date_format: 'MMM DD, YYYY HH:mm:ss'  # Readable date format for last update
