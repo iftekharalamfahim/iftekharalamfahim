@@ -44,16 +44,9 @@
 
 *Latest contributions and updates from my GitHub journey* 🚀
 
-<!--RECENT_ACTIVITY:start-->
-1. 🤝 Became collaborator on [codewith-rafi/vast-data](https://github.com/codewith-rafi/vast-data)<br>
-2. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/iftekharalamfahim](https://github.com/iftekharalamfahim/iftekharalamfahim)<br>
-3. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/iftekharalamfahim](https://github.com/iftekharalamfahim/iftekharalamfahim)<br>
-4. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/iftekharalamfahim](https://github.com/iftekharalamfahim/iftekharalamfahim)<br>
-5. ⬆️ Pushed 1 commit(s) to [iftekharalamfahim/iftekharalamfahim](https://github.com/iftekharalamfahim/iftekharalamfahim)<br>
-<!--RECENT_ACTIVITY:end-->
-<!--RECENT_ACTIVITY:last_update-->
-Last Updated: Tuesday, October 7th, 2025, 12:40:49 AM
-<!--RECENT_ACTIVITY:last_update_end-->
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+*Last Updated: <!--RECENT_ACTIVITY:last_update--><!--RECENT_ACTIVITY:last_update_end-->*
 
 ## 📊 GitHub Stats
 
