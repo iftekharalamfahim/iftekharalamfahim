@@ -1,4 +1,4 @@
-# .github/workflows/update-readme.yml
+
 name: Update README
 on:
   schedule:
@@ -13,27 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          # Use a Personal Access Token (PAT) or default GITHUB_TOKEN
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0  # Fetch all history for proper git operations
-          
+        
       - name: Update README with recent activity
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Configure Git and Amend Commit as Bot
-        run: |
-          # Configure git to use GitHub Actions bot identity
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # Check if there's a new commit from the action
-          if git diff-index --quiet HEAD --; then
-            echo "No changes detected"
-          else
-            # Amend the last commit to attribute it to the bot
-            git commit --amend --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" --no-edit
-            git push --force-with-lease origin main || git push --force-with-lease origin master
-          fi
