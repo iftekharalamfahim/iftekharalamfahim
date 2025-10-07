@@ -18,31 +18,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0  # Fetch all history for proper git operations
           
-      - name: Configure Git as Bot
-        run: |
-          # Configure git to use GitHub Actions bot identity
-          # This ensures commits DON'T count towards your contribution graph
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
       - name: Update README with recent activity
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          # Configure the action to use bot identity
-          COMMIT_NAME: 'github-actions[bot]'
-          COMMIT_EMAIL: '41898282+github-actions[bot]@users.noreply.github.com'
-          COMMIT_MSG: '📝 Updated recent activity'
           
-      - name: Verify bot commit (fallback safety)
+      - name: Configure Git and Amend Commit as Bot
         run: |
-          # Double-check the last commit is attributed to bot
-          LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
-          echo "Last commit author: $LAST_COMMIT_AUTHOR"
+          # Configure git to use GitHub Actions bot identity
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          if [ "$LAST_COMMIT_AUTHOR" != "github-actions[bot]" ]; then
-            echo "⚠️ Warning: Commit not attributed to bot. Re-committing..."
+          # Check if there's a new commit from the action
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected"
+          else
+            # Amend the last commit to attribute it to the bot
             git commit --amend --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" --no-edit
-            git push --force-with-lease
+            git push --force-with-lease origin main || git push --force-with-lease origin master
           fi
