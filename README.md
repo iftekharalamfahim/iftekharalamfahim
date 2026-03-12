@@ -24,8 +24,8 @@ I prefer the Next.js ecosystem for web projects, but my background covers severa
 
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
 
-* **ghilu (Forum App):** A knowledge-sharing platform (like a simple Stack Overflow). Built with Next.js and TypeScript. I managed the user sign-in process using **Auth.js** to handle Google, GitHub, and email authentication.
-* **PsiLoop (Web Service Site):** The marketing site for my web service company. It's a clean, single-page application using **Next.js, GSAP, and Tailwind CSS**. I included backend security logic, such as using the **Node Crypto module** for OTP generation.
+* **kompascale:** AI-driven architectural SaaS built with React, TypeScript, and Puter.js. Uses Claude & Gemini to convert 2D floor plans into photorealistic 3D renders with serverless edge architecture.
+* **kortobbo:** A todo web app built with Python as a Python learning process. 
 
 ### 💡 Approach & Philosophy
 
