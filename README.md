@@ -20,12 +20,17 @@ I prefer the Next.js ecosystem for web projects, but my background covers severa
 | **Foundations** | DSA, Git, OpenGL, System Level Programming |
 | **Tools & Design** | GSAP (Animation), Figma |
 
+### 🚀 Books I'm Reading
+* [Mathematical Foundation of Reinforcement Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) by Shiyu Zhao
+* [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) by Martin Kleppmann
+
 ### 🚀 Projects I'm Actively Building
 
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
 
 * **kompascale:** AI-driven architectural SaaS built with React, TypeScript, and Puter.js. Uses Claude & Gemini to convert 2D floor plans into photorealistic 3D renders with serverless edge architecture.
-* **kortobbo:** A todo web app built with Python as a Python learning process. 
+* **ML Bootstrap:** Implementation of different Machine Learning Models.
+* **PONG:** A 2D pong game made with LÖVE (Love2D) and Lua Language.
 
 ### 💡 Approach & Philosophy
 
