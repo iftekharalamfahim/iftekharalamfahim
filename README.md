@@ -3,22 +3,23 @@
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu&size=32&duration=2500&pause=1000&color=DC1B2E&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=80&lines=Hello+World!;Welcome+to+my+GitHub;This+is+Iftekhar+Fahim;Software+Engineering+Student;Full+Stack+Developer;Entrepreneur;)
 </div>
 
-👋 Hello World! This is Iftekhar Fahim. I'm a Junior Software Engineering student at **Sichuan University**. My focus is on building robust, full-stack web applications by using strong foundations in Data Structures and Algorithms (DSA).
+👋 Hello World! This is Iftekhar Fahim. I'm a Junior Software Engineering student at Sichuan University, with a growing focus on machine learning and reinforcement learning alongside my full-stack background.
 
 
 ---
 
 ### 💻 My Core Stack & Expertise
 
-I prefer the Next.js ecosystem for web projects, but my background covers several key areas.
+My background covers several key areas.
 
 | Category | Technologies |
 | --- | --- |
 | **Languages** | C++, Python, JavaScript (JS), Java, C |
 | **Web** | **Next.js (Preferred, with TypeScript)**, React, Node.js, Express.js  |
 | **Data** | PostgreSQL, MongoDB |
-| **Foundations** | DSA, Git, OpenGL, System Level Programming |
-| **Tools & Design** | GSAP (Animation), Figma |
+| **Foundations** | DSA, Git, OpenGL, System-Level Programming |
+| **AI / ML** | NumPy, Pandas, Scikit-learn, MLflow, PyTorch, TensorFlow, Great Expectations, Docker |
+| **Tools & Design** | GSAP (Animation), Figma, DaVinci Resolve |
 
 ### 📚 Books I'm Reading
 * [Mathematical Foundation of Reinforcement Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) by Shiyu Zhao
@@ -28,10 +29,9 @@ I prefer the Next.js ecosystem for web projects, but my background covers severa
 
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
 
-* **[kompascale](https://github.com/iftekharalamfahim/bumwad):** AI-driven architectural SaaS built with React, TypeScript, and Puter.js. Uses Claude & Gemini to convert 2D floor plans into photorealistic 3D renders with serverless edge architecture.
-* **ML Bootstrap:** Implementation of different Machine Learning Models.
-* **PONG:** A 2D pong game made with LÖVE (Love2D) and Lua Language.
-* **[Bob-Watcher](https://github.com/iftekharalamfahim/Bob-Watcher):** Bob Watcher is a persistent memory layer for IBM Bob that automatically captures developer corrections, converts them into enforced coding rules via watsonx.ai, and injects them into Bob’s system prompt to prevent recurring mistakes.
+* **Fraudulent Detection System:** An end-to-end machine learning project to detect fraudulent credit card transactions using a *Random Forest Classifier*, covering data validation, experiment tracking, and CI/CD deployment. 
+* **ML Bootstrap:** Learning, implementing, and noting down different Machine Learning Models.
+* **GridWorld-RL (Planned):** A C++ core with pybind11 bindings implementing Q-learning on a grid world environment. Not yet started, but next up on my roadmap.
 
 ### 💡 Approach & Philosophy
 
@@ -42,9 +42,10 @@ My approach to building and collaborating is structured and focused on execution
 
 ### 🌱 Current Goals & Future Focus
 
-* **C++:** Completing my C++ curriculum, including advanced concepts needed for competitive coding. I am eager to participate in hackathons.
-* **Community:** I am organizing a **GitHub club** for international students in my class to encourage project collaboration and idea sharing.
-* **Career:** My primary goal is securing a **Summer 2026 Software Engineering Internship** at an impactful technology company.
+* **GSoC 2027:** Preparing the technical groundwork and open-source contribution history needed for a strong Google Summer of Code 2027 application.
+* **Open Source:** Planning to contribute to open-source projects to build experience and visibility.
+* **Writing:** Documenting my learning and research through Substack and other write-ups.
+* **Applications:** Preparing for both master's program applications and Software Engineering job applications, including a target **Winter 2027 Internship**.
 
 ---
 
@@ -52,4 +53,5 @@ My approach to building and collaborating is structured and focused on execution
 
 * **LinkedIn:** [Iftekhar Alam Fahim](https://www.linkedin.com/in/iftekharalamfahim/)
 * **X/Twitter** [Iftekhar Fahim](https://x.com/_IftekharFahim)
+* **Substack:** [Iftekhar Fahim](https://substack.com/@includefahim)
 * **Email:** [includefahim@gmail.com](includefahim@gmail.com)
