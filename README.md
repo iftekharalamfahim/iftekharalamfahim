@@ -30,7 +30,7 @@ My background covers several key areas.
 
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
 
-* **Fraudulent Detection System:** An end-to-end machine learning project to detect fraudulent credit card transactions using a *Random Forest Classifier*, covering data validation, experiment tracking, and CI/CD deployment. 
+* **[Fraudulent Detection System](https://github.com/iftekharalamfahim/fraud-credit-detection):** An end-to-end machine learning project to detect fraudulent credit card transactions using a *Random Forest Classifier*, covering data validation, experiment tracking, and CI/CD deployment. 
 * **ML Bootstrap:** Learning, implementing, and noting down different Machine Learning Models.
 * **GridWorld-RL (Planned):** A C++ core with pybind11 bindings implementing Q-learning on a grid world environment. Not yet started, but next up on my roadmap.
 
