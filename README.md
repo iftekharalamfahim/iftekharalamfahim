@@ -30,7 +30,7 @@ My background covers several key areas.
 
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
  
-* **ML Bootstrap:** Learning, implementing, and noting down different Machine Learning Models.
+* **[ML Bootstrap](https://github.com/iftekharalamfahim/ML-Bootstrap):** Learning, implementing, and noting down different Machine Learning Models.
 * **GridWorld-RL :** A C++ core with pybind11 bindings implementing Q-learning on a grid world environment. Not yet started, but next up on my roadmap.
 
 ### Approach & Philosophy
