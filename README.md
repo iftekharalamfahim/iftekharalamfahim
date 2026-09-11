@@ -31,7 +31,7 @@ My background covers several key areas.
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
  
 * **[ML Bootstrap](https://github.com/iftekharalamfahim/ML-Bootstrap):** Learning, implementing, and noting down different Machine Learning Models.
-* **Quizent:** A multi-agent AI system that runs entirely on the local machine, using - Langgraph, MCP, A2A, Ollama, CrewAI, Langfuse, DeepEval.
+* **[Quizent](https://github.com/iftekharalamfahim/quizent):** A multi-agent AI system that runs entirely on the local machine, using - Langgraph, MCP, A2A, Ollama, CrewAI, Langfuse, DeepEval.
 * **[HFDRL-Hands-On](https://github.com/iftekharalamfahim/HFDRL-Hands-On) :** A personal repository dedicated to my hands-on journey through Deep Reinforcement Learning. This space serves as a log for my code, trained model checkpoints, and experiments built primarily around the Hugging Face Deep Reinforcement Learning Course and extended RL practice.
 
 ### Approach & Philosophy
@@ -59,7 +59,7 @@ My approach to building and collaborating is structured and focused on execution
   <a href="https://www.linkedin.com/in/iftekharalamfahim/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://x.com/_IftekharFahim">
+  <a href="https://x.com/includefahim">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
   <a href="https://dev.to/includefahim">
