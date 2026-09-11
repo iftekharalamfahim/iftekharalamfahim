@@ -31,7 +31,8 @@ My background covers several key areas.
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
  
 * **[ML Bootstrap](https://github.com/iftekharalamfahim/ML-Bootstrap):** Learning, implementing, and noting down different Machine Learning Models.
-* **GridWorld-RL :** A C++ core with pybind11 bindings implementing Q-learning on a grid world environment. Not yet started, but next up on my roadmap.
+* **Quizent:** A multi-agent AI system that runs entirely on the local machine, using - Langgraph, MCP, A2A, Ollama, CrewAI, Langfuse, DeepEval.
+* **[HFDRL-Hands-On](https://github.com/iftekharalamfahim/HFDRL-Hands-On) :** A personal repository dedicated to my hands-on journey through Deep Reinforcement Learning. This space serves as a log for my code, trained model checkpoints, and experiments built primarily around the Hugging Face Deep Reinforcement Learning Course and extended RL practice.
 
 ### Approach & Philosophy
 
@@ -51,8 +52,26 @@ My approach to building and collaborating is structured and focused on execution
 
 ### 📧 Get In Touch
 
-* **Portfolio:** [Iftekhar Fahim](https://iftekharalamfahim.github.io)
-* **LinkedIn:** [Iftekhar Alam Fahim](https://www.linkedin.com/in/iftekharalamfahim/)
-* **X/Twitter** [Iftekhar Fahim](https://x.com/_IftekharFahim)
-* **Substack:** [Iftekhar Fahim](https://substack.com/@includefahim)
-* **Email:** [includefahim@gmail.com](includefahim@gmail.com)
+<p align="center">
+  <a href="https://morseta.com">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/iftekharalamfahim/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/_IftekharFahim">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="https://dev.to/includefahim">
+    <img src="https://img.shields.io/badge/DEV.to-0A0A0A?style=for-the-badge&logo=devto&logoColor=white" alt="DEV.to" />
+  </a>
+  <a href="https://medium.com/@includefahim">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://substack.com/@includefahim">
+    <img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack" />
+  </a>
+  <a href="mailto:includefahim@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
