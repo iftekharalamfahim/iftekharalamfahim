@@ -30,6 +30,7 @@ My background covers several key areas.
 
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
  
+* **[GRIT-Echo](https://github.com/iftekharalamfahim/grit-echo):** GRanular Information Tracking in Echocardiography: granular-computing-based reliability gating for LV segmentation and LVEF, with an RL contour-tracking framework.
 * **[ML Bootstrap](https://github.com/iftekharalamfahim/ML-Bootstrap):** Learning, implementing, and noting down different Machine Learning Models.
 * **[Quizent](https://github.com/iftekharalamfahim/quizent):** A multi-agent AI system that runs entirely on the local machine, using - Langgraph, MCP, A2A, Ollama, CrewAI, Langfuse, DeepEval.
 * **[HFDRL-Hands-On](https://github.com/iftekharalamfahim/HFDRL-Hands-On) :** A personal repository dedicated to my hands-on journey through Deep Reinforcement Learning. This space serves as a log for my code, trained model checkpoints, and experiments built primarily around the Hugging Face Deep Reinforcement Learning Course and extended RL practice.
