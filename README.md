@@ -13,26 +13,36 @@
 
 My background covers several key areas.
 
-| Category | Technologies |
+### Research & Technical Stack
+
+| Category | Technologies & Topics |
 | --- | --- |
-| **Languages** | C++, Python, JavaScript (JS), Java, C |
-| **Web** | **Next.js (Preferred, with TypeScript)**, React, Node.js, Express.js  |
-| **Data** | PostgreSQL, MongoDB |
-| **Foundations** | DSA, Git, OpenGL, System-Level Programming |
-| **AI / ML** | NumPy, Pandas, Scikit-learn, MLflow, PyTorch, TensorFlow, Great Expectations, Docker |
-| **Tools & Design** | GSAP (Animation), Figma, DaVinci Resolve |
+| **Research Areas** | Diffusion Models, Open-Set Recognition, Computer Vision, Deep Learning, Trustworthy AI |
+| **Deep Learning & CV** | PyTorch, Torchvision, TensorFlow, Faster R-CNN, ResNet, FPN |
+| **Generative Models & RL** | Transformers, Diffusion Models, Reinforcement Learning |
+| **Classical ML** | scikit-learn, pandas, NumPy |
+| **MLOps** | MLflow, FastAPI, Docker, GitHub Actions, Evidently, Great Expectations |
+| **Data Engineering** | PostgreSQL, MySQL, MongoDB, Spark, Hive, Hadoop |
+| **Mathematics** | Linear Algebra, Calculus, Probability & Statistics |
+| **Academic Writing** | LaTeX, Overleaf, Literature Review |
+| **Languages** | Python, C++, C, Java, JavaScript, SQL |
+| **CS Foundations** | Data Structures & Algorithms, Git, Linux, OpenGL, System-Level Programming |
+| **Web & Design** | React, Next.js, Node.js, Express.js, GSAP, Figma, DaVinci Resolve |
+
 
 ### Books I'm Reading
 * [Mathematical Foundation of Reinforcement Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) by Shiyu Zhao
 * [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) by Martin Kleppmann
+* [Understanding Diffusion Models: A Unified Perspective ](https://arxiv.org/pdf/2208.11970) by Calvin Luo
 
 ### Projects I'm Actively Building
 
 These projects demonstrate my ability to handle end-to-end development, from setup to deployment.
  
-* **[GRIT-Echo](https://github.com/iftekharalamfahim/grit-echo):** GRanular Information Tracking in Echocardiography: granular-computing-based reliability gating for LV segmentation and LVEF, with an RL contour-tracking framework.
-* **[ML Bootstrap](https://github.com/iftekharalamfahim/ML-Bootstrap):** Learning, implementing, and noting down different Machine Learning Models.
+* **[GRIT-Echo](https://github.com/iftekharalamfahim/grit-echo):** GRanular Information Tracking in Echocardiography: granular-computing-based reliability gating for LV segmentation and LVEF
 * **[Quizent](https://github.com/iftekharalamfahim/quizent):** A multi-agent AI system that runs entirely on the local machine, using - Langgraph, MCP, A2A, Ollama, CrewAI, Langfuse, DeepEval.
+* **[OSD-Insight](https://github.com/ridoy-adhikary/OSD-Insight):** OSD-Insight investigates the challenges of Open-Set Object Detection (OSOD), focusing on how object detectors can distinguish known objects from previously unseen categories.
+* **[FROST](https://github.com/codewith-rafi/FROST):** FROST builds a structure-confidence mask for every training image using granular balls: clusters of image patches at two scales. Each ball is summarised by fuzzy memberships and by fuzzy-rough lower and upper approximations.
 * **[HFDRL-Hands-On](https://github.com/iftekharalamfahim/HFDRL-Hands-On) :** A personal repository dedicated to my hands-on journey through Deep Reinforcement Learning. This space serves as a log for my code, trained model checkpoints, and experiments built primarily around the Hugging Face Deep Reinforcement Learning Course and extended RL practice.
 
 ### Approach & Philosophy
